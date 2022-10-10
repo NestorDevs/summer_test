@@ -1,16 +1,18 @@
-# test_sumer
+# Summer App Test
 
-A new Flutter project.
+App para una challenger de Summer.
 
-## Getting Started
+## Estructura de la App
 
-This project is a starting point for a Flutter application.
+Se uso una estructura modular con [cubit] como gestor de estado y [flutter_modular] para inyeccion de dependencias y navegacion amigable
 
-A few resources to get you started if this is your first Flutter project:
+## Continuos Integration and Continuos Delivery
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Basado en [Github Actions]
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Solo Android
+- Flujo de Construccion de entregable APK
+- Localizacion en release de Github Code
+
+Fuente:
+https://github.com/NestorDevs/summer_test/releases
